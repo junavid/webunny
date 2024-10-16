@@ -31,5 +31,14 @@ table {
 
 .leedohyun {
     display: flex;
-    align-items: center;
+}
+
+video {
+    justify-content: left;
+    padding-left: 17rem;
+}
+
+audio {
+    justify-content: left;
+    padding-left: 28rem;
 }
