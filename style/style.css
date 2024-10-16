@@ -43,3 +43,10 @@ audio {
     justify-content: left;
     padding-left: 28rem;
 }
+.model p {
+    text-align: justify;
+}
+
+.model ul {
+    text-align: justify;
+}
