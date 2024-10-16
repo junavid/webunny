@@ -1,0 +1,35 @@
+.judul h3 {
+    display: flex;
+    padding: 0 20px;
+}
+.judul span {
+    font-style: italic;
+}
+.i {
+    display: flex;
+}
+.i span {
+    font-style: italic;
+}
+
+.isi p {
+    text-align: justify;
+}
+
+.isi th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table {
+    font-size: 16px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+.leedohyun {
+    display: flex;
+    align-items: center;
+}
