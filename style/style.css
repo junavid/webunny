@@ -2,6 +2,7 @@
     display: flex;
     padding: 0 20px;
 }
+
 .judul span {
     font-style: italic;
 }
@@ -24,7 +25,10 @@
 table {
     font-size: 16px;
 }
-
+table th {
+    background-color: #16a085;
+    color: #ffffff;
+}
 .table {
     display: flex;
     justify-content: center;
@@ -35,8 +39,10 @@ table {
 }
 
 video {
-    justify-content: left;
+    
+    justify-content: center;
     padding-left: 17rem;
+    
 }
 
 audio {
@@ -49,4 +55,12 @@ audio {
 
 .model ul {
     text-align: justify;
+}
+
+.model p, ol {
+    border-style: outset;
+    border-color: #ffffff;
+    padding-inline: 5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
