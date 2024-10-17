@@ -41,13 +41,13 @@ table th {
 video {
     
     justify-content: center;
-    padding-left: 17rem;
-    
+    padding-left: 20rem;
+
 }
 
 audio {
     justify-content: left;
-    padding-left: 28rem;
+    padding-left: 33rem;
 }
 .model p {
     text-align: justify;
