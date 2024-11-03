@@ -25,6 +25,8 @@
 table {
     font-size: 16px;
 }
+
+
 table th {
     background-color: #16a085;
     color: #ffffff;
@@ -45,10 +47,17 @@ video {
 
 }
 
-audio {
+
+.audio {
     justify-content: left;
     padding-left: 33rem;
 }
+
+.img {
+    /* margin-bottom: 10rem; */
+
+}
+
 .model p {
     text-align: justify;
 }
@@ -64,3 +73,48 @@ audio {
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
+
+.model2 {
+    background-color: lightgrey;
+    width: 400px;
+    border: 5px solid rgb(43, 92, 94);
+    text-align: justify;
+    display: flex;
+    place-items: end;
+    top: 1580px;
+}
+
+.model2 p{
+    padding: 0 10px;
+    display: flex;
+    place-items: end;
+    line-height: 2;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #16a085;
+    text-transform: capitalize;
+}
+
+.model3 p {
+    outline: solid;
+    margin-top: 16rem;
+    padding: 5px;
+    font-family: Verdana;
+    font-size: 19px;
+    font-style: normal;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+
+footer.social i {
+    padding-top: 18px;
+    display: flex;
+}
+.bx.bxl-instagram {
+    color: #16a085;
+    padding-right: 20px;
+}
+
+
