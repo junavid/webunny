@@ -7,12 +7,37 @@
     <title>Webunny</title>
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- style icon ig -->
+    <script src="https://unpkg.com/feather-icons"></script>
 
 </head>
-<body  
+<body bgcolor="E2F1E7">
 
-        bgcolor="E2F1E7">
+        <nav id="navbar">
+            <div class="navbar-judul">
+                <a href="index.html"><h1>PROFILE LEE DO-HYUN</h1></a>
+            </div>
+            <div class="navbartoogle">
+                <a href="#">Home</a>
+                <a href="about.html">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
 
+        <script type="text/javascript">
+        var lastScrollTop = 0;
+            navbar = document.getElementById("navbar");
+        window.addEventListener("scroll", function(){
+            var scrollTop = window.pageYOffset || document
+                .documentElement.scrollTop;
+            if (scrollTop > lastScrollTop){
+                navbar.style.top='-80px';
+            } else {
+                navbar.style.top="0";
+            }
+            lastScrollTop = scrollTop;
+        })
+        </script>
     <section class="home">
          <!-- css internal highatauweight -->
         <div class="gambar">
@@ -25,6 +50,9 @@
     </section>
 
    <!-- ini buat judul -->
+    
+   
+    
     <div class="profil">
         <div class="judul">
             <h3>
@@ -74,15 +102,8 @@
             <p>
                 Lee Do-hyun awalnya bercita-cita menjadi seorang pemain basket profesional, namun seiring berjalannya waktu, ia memutuskan untuk beralih ke dunia akting saat masih duduk di bangku SMA. Perubahan ini terjadi ketika ia mulai menyadari minatnya yang semakin besar dalam seni peran, yang kemudian membawanya untuk mengejar karier di industri hiburan. Meskipun ia sibuk dengan pekerjaannya sebagai aktor, Lee Do-hyun juga memiliki hobi lain yang ia tekuni di waktu luangnya, seperti membaca buku dan menggambar. Selain itu, ada aspek pribadi dalam hidupnya yang sangat mempengaruhi cara pandangnya terhadap kehidupan, yakni hubungannya dengan adik laki-lakinya yang mengalami gangguan perkembangan. Pengalaman ini telah memberikan perspektif yang lebih dalam bagi Lee Do-hyun tentang kehidupan, dan membantunya untuk mengekspresikan emosi dengan lebih tulus dan mendalam dalam setiap karakter yang ia perankan. Hal ini terlihat dalam berbagai peran yang ia mainkan, di mana ia mampu menghadirkan dimensi emosional yang autentik dan menyentuh hati penonton. Pengalaman pribadinya ini telah menjadi salah satu kekuatan yang memperkaya kualitas aktingnya dan membentuk kariernya sebagai seorang aktor yang dihormati.
             </p>
-
-            
         </div>
-        
-        
     </div>
-    
-    
-    
 </div>
 <div class="leedohyun">
     <video src="image/leedohyunvideo.mp4" controls style="width: 50%; justify-content: center;"></video> 
@@ -107,31 +128,45 @@
         <img src="image/leedohyun12.jpg" alt="LEEDOHYUN" style="float: left;" width="333rem" height="250rem">
 
     </div>
-<br>
-<section>
-    <div class="model3">
-        <p>
-            Lee Do Hyun dikenal memiliki beberapa hobi yang mencerminkan kepribadiannya yang santai dan aktif. Salah satu hobinya adalah bermain basket; ia sering menyebut bahwa basket adalah salah satu olahraga favoritnya sejak sekolah dan bahkan sempat bercita-cita menjadi atlet. Selain itu, Lee Do Hyun juga gemar bermain gitar, yang ia lakukan untuk bersantai di waktu luangnya. Sebagai aktor, ia juga menyukai menonton film untuk belajar lebih dalam tentang dunia akting dan mencari inspirasi dari berbagai genre film dan karakter. Hobi-hobi ini membantunya tetap kreatif dan seimbang di tengah jadwalnya yang padat.
-        </p>
-    </div>
-    <div class="model2">
-        <p>
-            Menjadi model bagi Lee Do Hyun berarti tidak hanya menunjukkan visual yang menarik, tetapi juga mengekspresikan karakter dan kepribadian yang kuat di setiap pose. Dengan latar belakang akting, Lee Do Hyun membawa kedalaman emosi yang bisa membuat sebuah produk atau merek tampak hidup dan berhubungan lebih dekat dengan penonton. Dalam pemotretan atau iklan, ia memadukan gestur dan ekspresi wajah yang natural, sehingga setiap karya terasa lebih otentik dan berkesan. Karisma dan profesionalismenya juga membuatnya mampu bekerja dengan baik bersama tim, memastikan visi kreatif terpenuhi dengan sempurna.
-        </p>
-    </div>
-</section>
 
+    <div class="produk">
+        <p id="LEE DO-HYUN1">LEE DO-HYUN</p>
+        <button type="button" onclick='document.getElementById("LEE DO-HYUN1").innerHTML= "Rp2.500.000"'>RATECARD</button>
+    </div>
+
+<br>
 
 <div class="audio">
     <audio src="image/laguleedohyun.mp3" controls autoplay ></audio>
 </div>
     
+<section id="contact">
+    <div class="footer">
+      <div class="footer-judul">
+        <a href="#"><strong>PROFILE LEE DO-HYUN</strong></a>
+      </div>
+      <div class="footer-contact">
+        <div class="footer-contact-p">
+          <h3>Contact Us</h3>
+          <p>
+            <a href="https://www.instagram.com/ldh_sky/" target="_blank"><i data-feather="instagram">Instagram</i></a>
+            <a href="mailto:atjityalibrary@gmail.com" target="_blank"><i data-feather="mail">Email</i></a>
+            <!-- <img src="img/favicon_io/favicon-16x16.png" id="icon"> -->
+          </p>
+        </div>
+      </div>
+    </div>
+</section>
+
 <footer>
-    <div class="social">
-        <a href="https://www.instagram.com/ldh_sky/" target="_blank"><i class='bx bxl-instagram'></i></a>
+    <div class="footer-copyright">
+      <p><strong>&copy; 2024 Junavid. All right reserved</strong></p>
     </div>
 </footer>
 
+<script>
+    feather.replace();
+</script>
 
 </body>
 </html>
